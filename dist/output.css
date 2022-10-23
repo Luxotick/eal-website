@@ -324,6 +324,10 @@ video {
   bottom: 2.5rem;
 }
 
+.bottom-31 {
+  bottom: 1rem;
+}
+
 .left-1\/2 {
   left: 50%;
 }
@@ -342,6 +346,30 @@ video {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.photo-bottom {
+  display: block;
+  margin-top: 20%;
+  margin-bottom: 0%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo-leftbottom {
+  display: block;
+  margin-top: -11%;
+  margin-bottom: 0%;
+  margin-left: 10%;
+  margin-right: 0%;
+}
+
+.photo-rightbottom {
+  display: block;
+  margin-top: -11%;
+  margin-bottom: 0%;
+  margin-left: 75%;
+  margin-right: 0%;
 }
 
 .mx-manuel {
@@ -562,7 +590,7 @@ video {
 }
 
 .bb-main-img {
-  background-image: url('../assets/kota.jpg');
+  background-image: url('../assets/kota.JPG');
 
 }
 
@@ -1026,7 +1054,7 @@ nav{
 /* Staggered Vertical Items ------------------------------------------------------*/
 .item-header {
   position: absolute;
-  top: 150px;
+  top: 100px;
   left: 1%;
   z-index: 100;
 }
@@ -1035,7 +1063,7 @@ nav{
   margin: 0 -4px;
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: auto;
-  font-size: 7vw;
+  font-size: 5vw;
   color: #86def2;
 }
 
@@ -1088,4 +1116,33 @@ nav{
 
 .controls ul li.active {
   background:#6a6a77;;
+}
+
+.button {
+  background-color: #86def2; /* cyan */
+  border: none;
+  color: #86def2;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: #86def2; 
+  color: white; 
+  border: 2px solid #86def2;
+}
+
+.button2:hover {
+  background-color: white;
+  color: black;
+}
+
+.assagdan {
+  left: 100%;
 }
