@@ -421,6 +421,14 @@ video {
   height: 4rem;
 }
 
+.h-5{
+  height: 5rem;
+}
+
+.h-3{
+  height: 3rem;
+}
+
 .h-24 {
   height: 6rem;
 }
@@ -585,7 +593,7 @@ video {
 }
 
 .bcg-main-img {
-  background-image: url('../assets/kota.jpg');
+  background-image: url('../assets/kota.JPG');
 
 }
 
@@ -929,6 +937,7 @@ nav{
    overflow: auto;
    height: auto;
    transition: 0.5s;
+   z-index: 100;
 
 }
 
@@ -979,7 +988,10 @@ nav{
 .content-width {
   width: 86%;
   height: 100vh;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 
 .slideshow-background{
@@ -989,15 +1001,19 @@ nav{
 .slideshow {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 115vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 
 .slideshow-items {
   position: relative;
-  width: 100%;
+  width: 87%;
   height: 300px;
 }
 
@@ -1028,7 +1044,7 @@ nav{
   position: relative;
   width: 100%;
   height: auto;
-  opacity: 0;
+  opacity: 1;
   display: block;
   /* transition: property name | duration | timing-function | delay  */
   transition: opacity .3s ease-out .45s;
@@ -1056,20 +1072,22 @@ nav{
   position: absolute;
   top: 100px;
   left: 1%;
-  z-index: 100;
+  z-index: 2;
 }
 
 .item-header .vertical-part {
-  margin: 0 -4px;
-  font-family: 'Montserrat', sans-serif;
+  margin: 0 -2px;
+  font-family: Righteous, cursive;
   -webkit-font-smoothing: auto;
-  font-size: 5vw;
+  font-size: 4.5vw;
   color: #86def2;
 }
 
 .vertical-part {
   overflow: hidden;
   display: inline-block;
+  font-family: Bahnschrift;
+  font-size: 1.5vw;
   color: #fff;
 }
 
@@ -1110,12 +1128,12 @@ nav{
   width: 10px;
   height: 10px;
   margin: 3px;
-  background:#bdbdd5;;
+  background:#fff;;
   cursor: pointer;
 }
 
 .controls ul li.active {
-  background:#6a6a77;;
+  background:#86def2;;
 }
 
 .button {
@@ -1145,4 +1163,41 @@ nav{
 
 .assagdan {
   left: 100%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-instagram {
+  background: #86def2;
+  color: red;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.photo-lefttop{
+  margin-bottom: 0%;
+  position: absolute;
+  z-index: 10000;
+  top: 1%;
+  left: 10%;
+}
+
+.photo-righttop{
+  position: absolute;
+  z-index: 10000;
+  top: 1%;
+  right: 10%;
+}
+
+.back-lacv{
+  background-color: #021c41;
 }
