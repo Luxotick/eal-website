@@ -20,8 +20,8 @@ html {
 }
 
 #fullpage::-webkit-scrollbar {
-  display: none; */
-}
+  display: none;
+} */
 
 .fpsection {
   scroll-snap-align: center;
