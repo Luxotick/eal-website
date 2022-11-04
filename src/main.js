@@ -114,3 +114,13 @@ const slider = {
 
 let intervalF = setInterval(slider.nextSlide, interval);
 slider.init();
+
+
+
+
+//YENI STICKY NAVIGATION BAR ASSAGI TARAF
+
+window.addEventListener("scroll", function(){
+  var header=document.querySelector("header");
+  header.classList.toggle("sticky", window.scrollY > 0);
+})
