@@ -115,9 +115,6 @@ const slider = {
 let intervalF = setInterval(slider.nextSlide, interval);
 slider.init();
 
-
-
-
 //YENI STICKY NAVIGATION BAR ASSAGI TARAF
 
 window.addEventListener("scroll", function(){
