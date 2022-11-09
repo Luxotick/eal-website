@@ -514,6 +514,7 @@ video {
 .bcg-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(2 28 65);
+  z-index: 1000;
 }
 
 .bbg-primary {
@@ -590,7 +591,7 @@ video {
 
 .bcg-main-img {
   background-image: url('../assets/kota.JPG');
-
+  z-index: 1000;
 }
 
 .bb-main-img {
@@ -1034,12 +1035,13 @@ header.sticky ul li a{
 .splide__slide {
   width: 100%;
   height: 100vh;
-  z-index: -1;
+  z-index: 3;
 }
 
 .splide__slide img {
   width: 100%;
   height: 100vh;
+  z-index: 3;
 }
 
 @media screen and (max-width: 600px) {
@@ -1106,7 +1108,7 @@ header.sticky ul li a{
   height: 101%;
   --tw-bhg-opacity: 0.2;
   background-color: rgb(0 0 0 / var(--tw-bhg-opacity));
-  z-index: 1;
+  z-index: 40;
 }
 
 .item-image {
@@ -1121,6 +1123,7 @@ header.sticky ul li a{
 
 .item.active .item-image {
   opacity: 1;
+  z-index: 30;
 }
 
 .item.active .item-image-container::before {
@@ -1141,7 +1144,7 @@ header.sticky ul li a{
   position: absolute;
   top: 100px;
   left: 1%;
-  z-index: 2;
+  z-index: 50;
 }
 
 .item-header .vertical-part {
@@ -1317,3 +1320,43 @@ header.sticky ul li a{
 .m-t{
   margin-top: 50px;
 }
+
+.paralela {
+  clip-path: polygon(37% 0, 100% 0%, 75% 100%, 12% 100%);
+  z-index: 0;
+  width: 30%;
+  margin-top: -30%;
+  margin-bottom: -14%;
+  margin-left: 25%;
+  opacity: 1;
+}
+
+.paralelb {
+  clip-path: polygon(37% 0, 100% 0%, 75% 100%, 12% 100%);
+  z-index: 0;
+  width: 30%;
+  margin-top: -30%;
+  margin-bottom: -10%;
+  margin-left: 50%;
+  opacity: 0.6;
+}
+
+.paralelc {
+  clip-path: polygon(37% 0, 100% 0%, 75% 100%, 12% 100%);
+  z-index: 0;
+  width: 30%;
+  margin-top: -30%;
+  margin-bottom: -1%;
+  margin-left: 75%;
+  opacity: 0.2;
+}
+
+.st0{fill:#1D1D1B;stroke:#1D1D1B;stroke-miterlimit:10;}
+.st1{opacity:0.9;fill:#1D1D1B;stroke:#1D1D1B;stroke-miterlimit:10;}
+.st2{opacity:0.8;fill:#1D1D1B;stroke:#1D1D1B;stroke-miterlimit:10;}
+.st3{opacity:0.7;fill:#1D1D1B;stroke:#1D1D1B;stroke-miterlimit:10;}
+.st4{opacity:0.6;fill:#1D1D1B;stroke:#1D1D1B;stroke-miterlimit:10;}
+.st5{opacity:0.5;fill:#1D1D1B;stroke:#1D1D1B;stroke-miterlimit:10;}
+.st6{opacity:0.4;fill:#1D1D1B;stroke:#1D1D1B;stroke-miterlimit:10;}
+.st7{opacity:0.3;fill:#1D1D1B;stroke:#1D1D1B;stroke-miterlimit:10;}
+.st8{opacity:0.2;fill:#1D1D1B;stroke:#1D1D1B;stroke-miterlimit:10;}
